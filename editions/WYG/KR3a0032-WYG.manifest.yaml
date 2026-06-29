@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR3a0032/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3a0032/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 二程粹言
+  date: '2015-08-24 22:58:03.149537'
+  source:
+    repository: kanripo
+    path: KR3a0032
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3a0032_000-WYG.yaml, hash: 'sha256:669bc6e9bdbbbfa8da0f9c50c9cc0cf75dac1ea8f3b65ecdded5ca24bc636d2d'}
+  - {seq: 1, filename: KR3a0032_001-WYG.yaml, hash: 'sha256:7b85f2f238dc597567a20a874b2d5c36fcac00fbaf25e572c61261ce943d6465'}
+  - {seq: 2, filename: KR3a0032_002-WYG.yaml, hash: 'sha256:6c871c666b58a992fc49619c55bbf7ba29525874295b56ff37481c84c5c0ded2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3a0032_000-WYG.markers.yaml, hash: 'sha256:6caebe500d8b0ede393865270ba01767d72e7e2f841a0d305b399cbc88d3197f'}
+  - {seq: 1, role: markers, filename: assets/KR3a0032_001-WYG.markers.yaml, hash: 'sha256:fadf0e455c110cf13cbe1697f705e1a58ccc1a51e5e4579f4bb997c47871bc1f'}
+  - {seq: 2, role: markers, filename: assets/KR3a0032_002-WYG.markers.yaml, hash: 'sha256:41774fc233319bb4f5ed084e713de81ce170c40ef7e2ea5e80f6204db969df57'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3a0032_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 405
+  label: 目錄
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3a0032_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 21878
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3a0032_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 21044
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:ca5cb086212030491248ebcecf6a53fe31f319cde1b4b717173aa54663dd7def
